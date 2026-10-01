@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ToDoList</title>
+</head>
+<body>
+    <main>
+        <div id="input">
+            <label>ToDo: <input id="todo"></label><br>
+            優先度: <select>
+                <option>低</option>
+                <option selected>普</option>
+                <option>高</option>
+            </select>
+            <label>期日: <input type="date"></label><br>
+            <button type="submit" id="submit">登録</button>
+        </div>
+
+        <table>
+            <tr>
+                <th id="tableLabel">ToDo</th>
+                <th>優先度</th>
+                <th id="dateLabel">期日</th>
+                <th>完了</th>
+            </tr>
+        </table>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
