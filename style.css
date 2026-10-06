@@ -14,7 +14,7 @@ input, select {
 input[type="number"] {
     width: 30px;
 }
-button#submit, button#priority, button#remove {
+button#submit, button#priority, button#remove, button#reset {
     padding: 5px 10px;
     margin-top: 1rem;
     background-color: royalblue;
@@ -23,6 +23,10 @@ button#submit, button#priority, button#remove {
 }
 button#priority {
     background-color: olivedrab;
+}
+button#reset {
+    background-color: skyblue;
+    color: #000;
 }
 button#remove {
     background-color: firebrick;
